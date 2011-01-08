@@ -3,13 +3,13 @@ GEM
   specs:
     daemons (1.1.0)
     eventmachine (0.12.10)
-    heroku-nav (0.1.17)
+    heroku-nav (0.1.19)
       json
       rest-client (>= 1.0)
     json (1.4.6)
     mime-types (1.16)
     rack (1.2.1)
-    rest-client (1.2.0)
+    rest-client (1.6.1)
       mime-types (>= 1.16)
     sinatra (1.1.0)
       rack (~> 1.1)
@@ -24,6 +24,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  heroku-nav (~> 0)
+  heroku-nav (= 0.1.19)
   sinatra (= 1.1.0)
   thin (= 1.2.7)
